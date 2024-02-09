@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Leaflet Preview</title>
+  <title>SCIMAP N for lake Victoria. Uncalibrated. </title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,7 +29,7 @@
       var map = L.map('map', { attributionControl: false } ).setView([-1.3599026094852515, 32.57865399451809], 9);
       L.control.attribution( { prefix: false } ).addTo( map );
 
-      var tilesource_layer = L.tileLayer('file:////Users/simreaney/Documents/GitHub/simreaney.github.io/LV_SCIMAP/tiles/{z}/{x}/{y}.png', {
+      var tilesource_layer = L.tileLayer('https://simreaney.github.io/LakeVictoria/SCIMAP50/{z}/{x}/{y}.png', {
         minZoom: 9,
         maxZoom: 11,
         tms: false,
